@@ -14,9 +14,8 @@ function getWordByNumber(number: number): ReactNode | string {
   const numberToWordMap = {
     1: "Привычки",
     2: <Link href="/habit/recommend">Рекомендации</Link>,
-    3: <Link href="/profile">Профиль</Link>,
-    4: <Link href="/stats">Статистика</Link>,
-    5: <Link href="/dev">Разработчикам</Link>,
+    3: <Link href="/stats">Статистика</Link>,
+    4: <Link href="/dev">Разработчикам</Link>,
   };
   return (
     numberToWordMap[number as keyof typeof numberToWordMap] || "Индекс неверный"
@@ -26,7 +25,6 @@ function getWordByNumber(number: number): ReactNode | string {
 export const DHeaderItems = [
   UnorderedListOutlined,
   FireOutlined,
-  UserOutlined,
   BarChartOutlined,
   AndroidOutlined,
 ].map((icon, index) => ({
