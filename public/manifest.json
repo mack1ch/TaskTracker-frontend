@@ -1,0 +1,29 @@
+{
+  "name": "Planner",
+  "display_override": "standalone",
+  "orientation": "natural",
+  "short_name": "Planner",
+  "description": "Трекер привычек",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#4e7bf9",
+  "display": "standalone",
+  "lang": "ru",
+  "dir": "ltr",
+  "categories": ["education"],
+  "scope": "/",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "1025x1025",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.cover {
+  width: 100%;
+  min-height: 325px;
+  min-width: 256px;
+  background-color: #4e7bf9;
+  border-radius: 32px;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .aim {
+    color: #fff;
+    font-size: 18px;
+  }
+}

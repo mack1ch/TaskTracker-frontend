@@ -1,0 +1,9 @@
+.productLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 16px;
+  .logo {
+    font-size: 24px;
+  }
+}
